@@ -12,8 +12,8 @@ const App = () => {
 
   return (
     <div>
-        <label htmlFor="name">Enter your name:</label>
-        <input type="text" id="name"  value={value} onChange={input} />
+        <p>Enter your name:</p>
+        <input type="text" value={value} onChange={input} />
         {value && <p>Hello {value}!</p>}
     </div>
   )
